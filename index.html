@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+</head>
+
+<body>
+    <input type="file" id="input">
+    <textarea style="display: none;" id="output" cols="30" rows="10"></textarea>
+    <script src="main.js"></script>
+    <br><br>
+    <input type="password" id="chaveInput" onfocus="this.value=''">
+    <label>CHAVE</label>
+    <br><br>
+    <button onclick="criptografar()">Criptografar</button>
+    <button onclick="descriptografar()">Descriptografar</button>    
+</body>
+
+</html>
